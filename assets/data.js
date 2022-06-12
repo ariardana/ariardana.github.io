@@ -1,7 +1,7 @@
 const projek = [{
         nama: 'Tembak MacOs Theme',
         sc: 'https://github.com/ariardana/ariardana.github.io/tree/master/somebody',
-        web: 'https://ariardana.github.io/somebody',
+        web: 'https://ariardanaa.my.id/somebody',
         desc: 'Buat Nembak Ceue :v',
         dibuat: 'HTML,CSS, Javascript',
         status: 'selesai',
