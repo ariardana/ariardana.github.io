@@ -44,7 +44,7 @@ const projek = [{
         desc: 'Buat download video youtube',
         dibuat: 'Bootstrap, NodeJS',
         status: 'selesai',
-        foto: './assets/img/img9.png'
+        foto: 'https://i.ibb.co/NSkDS2J/wallpaperflare-com-wallpaper-1.jpg'
                 },
 
 ]
