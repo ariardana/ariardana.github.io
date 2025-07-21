@@ -110,14 +110,14 @@ const CONFIG = {
       companyLink: 'https://example.com',
     },
   ],
-  <!-- certifications: [
+ /* certifications: [
     {
       name: 'Lorem ipsum',
       body: 'Lorem ipsum dolor sit amet',
       year: 'March 2022',
       link: 'https://example.com',
     },
-  ], -->
+  ], */
   educations: [
     {
       institution: 'SMK Pancasila 4 Baturetno',
