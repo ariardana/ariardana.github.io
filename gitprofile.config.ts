@@ -33,20 +33,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Flappy Bird',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Game Flappy Bird',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/ariardana/ariardana.github1/tree/main/flappy-bird',
         },
         {
-          title: 'Project Name',
+          title: 'Ramadhan',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Aplikasi web yang berisi Quran, informasi jadwal sholat, kalender sholat, dan berita-berita islam lainnya.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/ariardana/ramadhan',
         },
       ],
     },
@@ -60,7 +60,7 @@ const CONFIG = {
     facebook: '',
     instagram: 'ari_ardn',
     reddit: '',
-    threads: '',
+    threads: 'ari_ardn',
     youtube: '', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
@@ -68,7 +68,7 @@ const CONFIG = {
     medium: '',
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
-    discord: '',
+    discord: 'ari_ardn',
     telegram: '',
     website: 'https://ariardn.my.id',
     phone: '',
@@ -96,40 +96,40 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Glassindo Timur Utama',
+      position: 'Full Stack Web Developer',
+      from: 'May 202',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://glassindotimurutama.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
+      company: 'Regar Sport',
+      position: 'Junior Web Developer',
+      from: 'July',
+      to: 'March 2023',
       companyLink: 'https://example.com',
     },
   ],
-  certifications: [
+  <!-- certifications: [
     {
       name: 'Lorem ipsum',
       body: 'Lorem ipsum dolor sit amet',
       year: 'March 2022',
       link: 'https://example.com',
     },
-  ],
+  ], -->
   educations: [
     {
-      institution: 'Institution Name',
+      institution: 'SMK Pancasila 4 Baturetno',
       degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      from: '2018',
+      to: '2021',
     },
     {
-      institution: 'Institution Name',
+      institution: 'SMP Negeri 3 Donorojo',
       degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      from: '2015',
+      to: '2018',
     },
   ],
   publications: [
@@ -164,7 +164,7 @@ const CONFIG = {
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'night',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
