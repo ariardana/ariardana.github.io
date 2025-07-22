@@ -10,7 +10,7 @@ const CONFIG = {
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
-  projects: {
+ /* projects: {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
@@ -27,7 +27,7 @@ const CONFIG = {
         // Properties for manually specifying projects
         projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
-    },
+    }, */
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
@@ -98,14 +98,14 @@ const CONFIG = {
     {
       company: 'Glassindo Timur Utama',
       position: 'Full Stack Web Developer',
-      from: 'May 202',
+      from: 'May 2023',
       to: 'Present',
       companyLink: 'https://glassindotimurutama.com',
     },
     {
       company: 'Regar Sport',
       position: 'Junior Web Developer',
-      from: 'July',
+      from: 'July 2022',
       to: 'March 2023',
       companyLink: 'https://example.com',
     },
@@ -132,7 +132,7 @@ const CONFIG = {
       to: '2018',
     },
   ],
-  publications: [
+  /* publications: [
     {
       title: 'Publication Title',
       conferenceName: '',
@@ -151,13 +151,13 @@ const CONFIG = {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
-  ],
+  ], */
   // Display articles from your medium or dev account. (Optional)
-  blog: {
+  /* blog: {
     source: 'dev', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
-  },
+  }, */
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -220,7 +220,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/ariardana/gitprofile"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
