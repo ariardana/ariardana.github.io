@@ -151,17 +151,6 @@ npm run lint     # Run ESLint
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/portfolio/issues).
-
-## 📞 Contact
-
-**Ari Ardn**
-- Email: ari.ardn@example.com
-- LinkedIn: [linkedin.com/in/ariardn](https://linkedin.com/in/ariardn)
-- GitHub: [github.com/ariardn](https://github.com/ariardn)
-
 ---
 
 ⭐ Don't forget to star this repository if you found it helpful!
