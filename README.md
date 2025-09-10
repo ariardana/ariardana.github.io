@@ -248,9 +248,20 @@ Jika data tidak muncul:
 
 ### Deployment Issues
 
+- Pastikan repository Anda adalah **Public** (GitHub Pages memerlukan repository public untuk akun gratis)
 - Pastikan environment variables sudah diset dengan benar di platform deployment
 - Check build logs untuk error specific
 - Pastikan semua dependencies terinstall dengan `npm install`
+
+### Akun Terkunci karena Masalah Billing
+
+Jika Anda mendapatkan error "account is locked due to a billing issue" saat deployment:
+1. Pastikan repository Anda adalah **Public**, bukan Private
+2. Verifikasi bahwa Anda tidak menggunakan fitur GitHub Pages yang memerlukan akun berbayar
+3. Pastikan Anda tidak melebihi batas penggunaan gratis GitHub Actions
+4. Cek pengaturan billing di akun GitHub Anda dan pastikan tidak ada masalah pembayaran
+
+Untuk solusi lengkap, lihat panduan khusus di [BILLING_ISSUE_SOLUTION.md](BILLING_ISSUE_SOLUTION.md)
 
 ### Styling Issues
 

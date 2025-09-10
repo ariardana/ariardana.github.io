@@ -71,6 +71,16 @@ npx serve out
 ### Deployment Issues
 - Make sure GitHub Pages is set to deploy from GitHub Actions
 - Check that your repository is not private (GitHub Pages requires public repositories for free tier)
+- Ensure you're not exceeding the free usage limits for GitHub Actions
+
+### Akun Terkunci karena Masalah Billing
+Jika Anda mendapatkan error "account is locked due to a billing issue":
+1. **Repository harus Public**: Pastikan repository Anda diset sebagai Public, bukan Private
+2. **Cek Pengaturan Billing**: Periksa pengaturan billing di akun GitHub Anda dan pastikan tidak ada masalah pembayaran
+3. **Batas Penggunaan**: Pastikan Anda tidak melebihi batas penggunaan gratis GitHub Actions (2000 menit per bulan untuk akun gratis)
+4. **Fitur Berbayar**: Hindari menggunakan fitur GitHub Pages yang memerlukan akun berbayar
+
+Untuk solusi lengkap dan langkah-langkah detil, lihat panduan khusus di [BILLING_ISSUE_SOLUTION.md](BILLING_ISSUE_SOLUTION.md)
 
 ### Custom Domain (Optional)
 1. In repository **Settings** → **Pages**
