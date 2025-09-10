@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Remove output: 'export' for development to ensure proper CSS loading
-  // output: 'export',
-  // trailingSlash: true,
+  // Enable static export for GitHub Pages
+  output: 'export',
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
