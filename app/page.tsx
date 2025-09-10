@@ -683,11 +683,25 @@ export default function HomePage() {
                       Cara Menghubungi
                     </motion.h3>
                     
+                    {/* Let's Connect Message */}
+                    <motion.div 
+                      className="mb-6"
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ delay: 0.5 }}
+                    >
+                      <h3 className="text-lg md:text-xl font-semibold mb-3">Let's Connect!</h3>
+                      <p className="text-gray-600 dark:text-gray-300 mb-6 text-sm md:text-base">
+                        I'm always open to collaboration and discussion about technology. 
+                        Feel free to explore my projects or contact me!
+                      </p>
+                    </motion.div>
+                    
                     <motion.div 
                       className="space-y-4 md:space-y-6"
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
-                      transition={{ delay: 0.5 }}
+                      transition={{ delay: 0.6 }}
                     >
                       {contactMethods.map((method) => {
                         const IconComponent = method.icon
@@ -763,73 +777,6 @@ export default function HomePage() {
                       </motion.div>
                     </motion.div>
                   </div>
-                </div>
-              </div>
-            </AnimatedSection>
-          </div>
-        </section>
-
-        {/* About Section */}
-        <section className="py-12 md:py-16">
-          <div className="max-w-4xl mx-auto">
-            <AnimatedSection delay={0}>
-              <div className="card p-6 md:p-8">
-                <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8 text-center">Tentang Saya</h2>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                  <motion.div 
-                    className="space-y-4 md:space-y-6"
-                    initial={{ opacity: 0, x: -20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.2 }}
-                  >
-                    <div className="flex items-center space-x-3 transition-all duration-300 hover:bg-gray-100 dark:hover:bg-gray-700 p-2 md:p-3 rounded-lg">
-                      <Github className="text-blue-600 dark:text-blue-400" size={18} />
-                      <span className="text-gray-600 dark:text-gray-300 text-sm md:text-base">Username:</span>
-                      <span className="font-medium text-sm md:text-base">{user.login}</span>
-                    </div>
-                    
-                    {user.location && (
-                      <div className="flex items-center space-x-3 transition-all duration-300 hover:bg-gray-100 dark:hover:bg-gray-700 p-2 md:p-3 rounded-lg">
-                        <MapPin className="text-green-600 dark:text-green-400" size={18} />
-                        <span className="text-gray-600 dark:text-gray-300 text-sm md:text-base">Lokasi:</span>
-                        <span className="font-medium text-sm md:text-base">{user.location}</span>
-                      </div>
-                    )}
-                    
-                    <div className="flex items-center space-x-3 transition-all duration-300 hover:bg-gray-100 dark:hover:bg-gray-700 p-2 md:p-3 rounded-lg">
-                      <Calendar className="text-purple-600 dark:text-purple-400" size={18} />
-                      <span className="text-gray-600 dark:text-gray-300 text-sm md:text-base">Bergabung sejak:</span>
-                      <span className="font-medium text-sm md:text-base">{joinDate}</span>
-                    </div>
-                  </motion.div>
-                  
-                  <motion.div 
-                    className="space-y-4"
-                    initial={{ opacity: 0, x: 20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.3 }}
-                  >
-                    <h3 className="text-lg md:text-xl font-semibold mb-3 md:mb-4">Let's Connect!</h3>
-                    <p className="text-gray-600 dark:text-gray-300 mb-4 md:mb-6 text-sm md:text-base">
-                      I'm always open to collaboration and discussion about technology. 
-                      Feel free to explore my projects or contact me!
-                    </p>
-                    
-                    <div className="flex flex-col sm:flex-row gap-2 md:gap-3">
-                      <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
-                        <Link href={user.html_url} target="_blank" className="btn-primary text-sm md:text-base">
-                          <ExternalLink className="inline mr-2" size={14} />
-                          GitHub Profile
-                        </Link>
-                      </motion.div>
-                      <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
-                        <Link href="/about" className="btn-secondary text-sm md:text-base">
-                          Selengkapnya
-                        </Link>
-                      </motion.div>
-                    </div>
-                  </motion.div>
                 </div>
               </div>
             </AnimatedSection>
