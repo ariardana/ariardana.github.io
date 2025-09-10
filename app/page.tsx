@@ -459,6 +459,126 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* Tech Stack Section */}
+        <section className="py-12 md:py-16">
+          <div className="text-center mb-12 md:mb-16">
+            <AnimatedSection delay={0}>
+              <h2 className="text-2xl md:text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                Tech Stack
+              </h2>
+            </AnimatedSection>
+            <AnimatedSection delay={0.1}>
+              <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+                Teknologi yang saya gunakan dalam pengembangan perangkat lunak
+              </p>
+            </AnimatedSection>
+          </div>
+
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+              {/* Languages */}
+              <AnimatedSection delay={0.2}>
+                <div className="card p-6 md:p-8 h-full">
+                  <h3 className="text-xl md:text-2xl font-bold mb-6 flex items-center">
+                    <Code className="mr-3 text-blue-600 dark:text-blue-400" size={24} />
+                    Languages
+                  </h3>
+                  <div className="flex flex-wrap gap-3">
+                    {['JavaScript', 'Python', 'TypeScript', 'PHP', 'Golang'].map((tech, index) => (
+                      <motion.div
+                        key={tech}
+                        className="px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-full text-sm font-medium"
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ delay: 0.1 * index }}
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                      >
+                        {tech}
+                      </motion.div>
+                    ))}
+                  </div>
+                </div>
+              </AnimatedSection>
+
+              {/* Frontend */}
+              <AnimatedSection delay={0.3}>
+                <div className="card p-6 md:p-8 h-full">
+                  <h3 className="text-xl md:text-2xl font-bold mb-6 flex items-center">
+                    <Code className="mr-3 text-green-600 dark:text-green-400" size={24} />
+                    Frontend
+                  </h3>
+                  <div className="flex flex-wrap gap-3">
+                    {['React', 'Next JS', 'Vue.js', 'TailwindCSS'].map((tech, index) => (
+                      <motion.div
+                        key={tech}
+                        className="px-4 py-2 bg-gradient-to-r from-green-500 to-teal-500 text-white rounded-full text-sm font-medium"
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ delay: 0.1 * index }}
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                      >
+                        {tech}
+                      </motion.div>
+                    ))}
+                  </div>
+                </div>
+              </AnimatedSection>
+
+              {/* Backend */}
+              <AnimatedSection delay={0.4}>
+                <div className="card p-6 md:p-8 h-full">
+                  <h3 className="text-xl md:text-2xl font-bold mb-6 flex items-center">
+                    <Code className="mr-3 text-purple-600 dark:text-purple-400" size={24} />
+                    Backend
+                  </h3>
+                  <div className="flex flex-wrap gap-3">
+                    {['NodeJS', 'Express.js', 'Django', 'Golang'].map((tech, index) => (
+                      <motion.div
+                        key={tech}
+                        className="px-4 py-2 bg-gradient-to-r from-purple-500 to-indigo-500 text-white rounded-full text-sm font-medium"
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ delay: 0.1 * index }}
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                      >
+                        {tech}
+                      </motion.div>
+                    ))}
+                  </div>
+                </div>
+              </AnimatedSection>
+
+              {/* Databases */}
+              <AnimatedSection delay={0.5}>
+                <div className="card p-6 md:p-8 h-full">
+                  <h3 className="text-xl md:text-2xl font-bold mb-6 flex items-center">
+                    <Code className="mr-3 text-orange-600 dark:text-orange-400" size={24} />
+                    Databases
+                  </h3>
+                  <div className="flex flex-wrap gap-3">
+                    {['MongoDB', 'Postgres', 'MySQL', 'MariaDB'].map((tech, index) => (
+                      <motion.div
+                        key={tech}
+                        className="px-4 py-2 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-full text-sm font-medium"
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ delay: 0.1 * index }}
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                      >
+                        {tech}
+                      </motion.div>
+                    ))}
+                  </div>
+                </div>
+              </AnimatedSection>
+            </div>
+          </div>
+        </section>
+
         {/* Contact Section */}
         <section className="py-12 md:py-16">
           <div className="text-center mb-12 md:mb-16">
